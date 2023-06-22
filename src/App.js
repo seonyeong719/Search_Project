@@ -1,11 +1,13 @@
-import SearchListBox from "./Pages";
+import { Reset } from 'styled-reset';
+import SearchListBox from './Pages';
 
 function App() {
-  return (
-    <>
-      <SearchListBox />
-    </>
-  );
+	return (
+		<>
+			<Reset />
+			<SearchListBox />
+		</>
+	);
 }
 
 export default App;
